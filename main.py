@@ -179,6 +179,17 @@ class AnimatedBox(ft.UserControl):
             rotate=ft.transform.Rotate(self.rotate_angle, alignment.center),
             animate_rotation=ft.animation.Animation(700, "easeInOut"),
         )
+    
+    
+class ImageWidget(ft.UserControl):
+    def __init__(self, --):
+        self.-- = 
+        super().__init__()
+
+    def build(self):
+       
+        )
+#kodde baru tes tes
 
 # Classes for user input
 class UserInputField(ft.UserControl):
